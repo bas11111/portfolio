@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: kanker;
+    src: url(./Fonts/steelfish.rg-regular.otf);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    padding: 25px 30px;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav a{
+    font-size: 40px;
+    align-items: center;
+    padding: 40px;
+    color: black;
+    text-decoration: none;
+    font-family: kanker, monospace;
+}
+.nav-bar{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+nav a:hover{
+    color: rgb(138, 138, 138);
+}
+.container{
+    text-align: center;
+    margin-top: 250px;
+}
+#title{
+    font-family: kanker, monospace;
+    font-size: 100px;
+    text-decoration: none;
+}
+#title1{
+    font-family: kanker, monospace;
+    font-size: 50px;
+    color: red;
+}
+#about{
+    font-family: kanker, monospace;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+}
+.line{
+    height: 2px;
+    width: 900px;
+    background-color: black;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.project1{
+    height: 250px;
+    width: 1000px;
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+.project1:hover{
+    cursor: pointer;
+}
+.project2{
+    height: 250px;
+    width: 1000px;
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+.project2:hover{
+    cursor: pointer;
+}
+#irri{
+    height: 246px;
+    border-right: 2px solid black;
+    position: absolute;
+}
+#irritext{
+    margin-left: 660px;
+    margin-top: 90px;
+    font-family: kanker, monospace;
+    font-size: 40px;
+}
+#irri2{
+    height: 246px;
+    width: 493px;
+    border-right: 2px solid black;
+    position: absolute;
+}
+.project3{
+    height: 250px;
+    width: 1000px;
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+}
+.project3:hover{
+    cursor: pointer;
+}
+#irri3{
+    height: 246px;
+    border-right: 2px solid black;
+    position: absolute;
+}
+
