@@ -12,11 +12,3 @@ klikker.addEventListener("click", function(){
 
     window.open('https://bas11111.github.io/dino/')
 })
-
-
-let kikker = document.querySelector('.project3')
-
-kikker.addEventListener("click", function(){
-
-    window.open()
-})
