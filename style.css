@@ -102,20 +102,3 @@ nav a:hover{
     border-right: 2px solid black;
     position: absolute;
 }
-.project3{
-    height: 250px;
-    width: 1000px;
-    border: 2px solid black;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 100px;
-}
-.project3:hover{
-    cursor: pointer;
-}
-#irri3{
-    height: 246px;
-    border-right: 2px solid black;
-    position: absolute;
-}
-
